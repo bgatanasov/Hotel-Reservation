@@ -21,7 +21,6 @@ document.querySelector('#new-reservation').addEventListener('click', (e) => clea
 function cleanData(e) {
     changeContent('search-form-content');
 }
-<<<<<<< HEAD
 
 changeContent('search-form-content');
 document.querySelector('#search-form-button').addEventListener('click', (e) => searchFormData(e));
@@ -41,7 +40,7 @@ function searchFormData(e) {
         changeContent('search-result-form-content');
     }
 }
-=======
+
 /* offerer */
 
 document.querySelector('#search-back-btn').addEventListener('click', (e) => fillSearchForm(e));
@@ -82,4 +81,3 @@ function findRoom(e) {
     changeContent('guest-details-form-content');
 
 }
->>>>>>> offerer
